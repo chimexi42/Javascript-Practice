@@ -1,3 +1,7 @@
+var _ = require('lodash');
+var array = [1,2,3,4,5,6,7,8];
+console.log('Answer', _.without(array, 3))
+
 var css = document.querySelector('h3');
 var color1 = document.querySelector('.color1');
 var color2 = document.querySelector('.color2');
@@ -9,7 +13,7 @@ function setGradient(){
 }
 color1.addEventListener('input',setGradient)
 color2.addEventListener('input',setGradient)
-advanced control flow
+// advanced control flow
 function isUserValid(bool){
     return bool;
 }
@@ -73,35 +77,20 @@ const sum =(num)=> num + 1
 
 compose(sum, sum)(5);
 
-const array = [1,2,10,16, 8, 17, 18, 20, 25, 30, 32]
-
-const multiplied = array.forEach((arr)=>{
-    console.log(arr *3)
-    return arr *3
-})
-console.log(array)
-console.log(multiplied)
 
 
-const mapArray = array.map((num)=>{
-    return num * 2
-})
-console.log('Mapped Array', mapArray)
-console.log(array)
+// const filtered = array.filter((num)=>{
+//     return num > 5
+// })
 
-
-const filtered = array.filter((num)=>{
-    return num > 5
-})
-
-console.log('filter',filtered)
+// console.log('filter',filtered)
 // reduce
 
-const reducedArray = array.reduce((accumulator, num)=>{
-    return accumulator + num
-}, 0)
+// const reducedArray = array.reduce((accumulator, num)=>{
+//     return accumulator + num
+// }, 0)
 
-console.log('Reduced: ', reducedArray)
+// console.log('Reduced: ', reducedArray)
 
 // advanced Objects 
 // reference types
@@ -227,14 +216,14 @@ setTimeout(()=>{
 // EVENT LOOP
 // Debugging is figuring out why the code isn't working, alot of time is spent debugging
 
-const flattened = [[0,1], [2,3], [4,5]].reduce(
-    (accumulator,array)=>{
-        console.log('array', array)
-        console.log('accumulator', accumulator)
-        return accumulator.concat(array)
-    },[]);
+// const flattened = [[0,1], [2,3], [4,5]].reduce(
+//     (accumulator,array)=>{
+//         console.log('array', array)
+//         console.log('accumulator', accumulator)
+//         return accumulator.concat(array)
+//     },[]);
 
-console.log(flattened)
+// console.log(flattened)
 // var myApp= {}
 // (function(){
 //     myApp.add = function(a,b){

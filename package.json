@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chimexi42/Javascript-Practice/issues"
   },
-  "homepage": "https://github.com/chimexi42/Javascript-Practice#readme"
+  "homepage": "https://github.com/chimexi42/Javascript-Practice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
