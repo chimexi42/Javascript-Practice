@@ -1,0 +1,19 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chimexi42/Javascript-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chimexi42/Javascript-Practice/issues"
+  },
+  "homepage": "https://github.com/chimexi42/Javascript-Practice#readme"
+}
